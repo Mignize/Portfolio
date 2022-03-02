@@ -84,7 +84,7 @@ navLinks.forEach((link) => {
           </div>
           <div className="d-flex">
             <button
-              className="menu d-xl-none d-xxl-block"
+              className="menu d-lg-none"
               type="button"
               onClick={handleVisible}
             >
