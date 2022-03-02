@@ -17,7 +17,7 @@
   width: 100%;
   height: 100%;
 }
-div span {
+.description-home {
   color: var(--bs-white);
 }
 .presentation {
@@ -27,7 +27,7 @@ div span {
   .presentation {
     font-size: 55px;
   }
-  div span {
+  .description-home {
     font-size: 45px;
   }
 }
@@ -35,7 +35,7 @@ div span {
   .presentation {
     font-size: 45px;
   }
-  div span {
+  .description-home {
     font-size: 35px;
   }
 }
@@ -43,7 +43,7 @@ div span {
   .presentation {
     font-size: 35px;
   }
-  div span {
+  .description-home {
     font-size: 25px;
   }
 }

@@ -11,9 +11,9 @@ const Home = () => {
          <img className="profile img-fluid" src={profile} alt=""></img>
       </div>
       <div className="col-lg-8">
-        <span>Hi!</span>
+        <span className="description-home">Hi!</span>
         <h1 className="presentation">I'm Santiago Salazar</h1>
-        <span>Full stack developer</span>
+        <span className="description-home">Full stack developer</span>
       </div>
       </div>
     </>
