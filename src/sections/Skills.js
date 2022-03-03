@@ -50,7 +50,7 @@ const Skills = () => {
                     aria-valuemin="0"
                     aria-valuemax="100"
                   >
-                    Medium
+                    Improving
                   </div>
                 </div>
               </div>
@@ -140,7 +140,7 @@ const Skills = () => {
                     aria-valuemin="0"
                     aria-valuemax="100"
                   >
-                    Medium
+                    Improving
                   </div>
                 </div>
               </div>
@@ -176,7 +176,7 @@ const Skills = () => {
                     aria-valuemin="0"
                     aria-valuemax="100"
                   >
-                    Medium
+                    Improving
                   </div>
                 </div>
               </div>
