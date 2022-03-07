@@ -9,6 +9,8 @@ import css from "../files/images/css.png";
 import git from "../files/images/git.png";
 import typescript from "../files/images/typescript.png";
 import bootstrap from "../files/images/bootstrap.png";
+import nextjs from '../files/images/nextjs.png';
+import react from '../files/images/react.png';
 
 const Skills = () => {
   return (
@@ -166,6 +168,42 @@ const Skills = () => {
             <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
               <img className="icons" src={bootstrap} alt="Bootstrap"></img>
               <div className="name-icon">Bootstrap</div>
+              <div className="tooltip">
+                <div className="progress mt-3 mb-3">
+                  <div
+                    className="btn-warning bar-progress"
+                    role="progressbar"
+                    style={{ width: "50%" }}
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    Improving
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+              <img className="icons" src={react} alt="React"></img>
+              <div className="name-icon">React</div>
+              <div className="tooltip">
+                <div className="progress mt-3 mb-3">
+                  <div
+                    className="btn-success bar-progress"
+                    role="progressbar"
+                    style={{ width: "75%" }}
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    High
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+              <img className="icons" src={nextjs} alt="Next.js"></img>
+              <div className="name-icon">Next.js</div>
               <div className="tooltip">
                 <div className="progress mt-3 mb-3">
                   <div
