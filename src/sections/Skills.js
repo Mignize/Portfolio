@@ -20,8 +20,8 @@ const Skills = () => {
           <h1>My skills</h1>
         </div>
         <div className="container">
-          <div className="row">
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+          <div className="row align-items-center gy-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={html} alt="html"></img>
               <div className="name-icon">HTML</div>
               <div className="tooltip">
@@ -39,7 +39,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={css} alt="css"></img>
               <div className="name-icon">Css</div>
               <div className="tooltip">
@@ -57,7 +57,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={javascript} alt="javascript"></img>
               <div className="name-icon">Javascript</div>
               <div className="tooltip">
@@ -75,7 +75,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={git} alt="Git"></img>
               <div className="name-icon">Git</div>
               <div className="tooltip">
@@ -93,7 +93,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={mongodb} alt="Mongodb"></img>
               <div className="name-icon">Mongodb</div>
               <div className="tooltip">
@@ -111,7 +111,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={nodejs} alt="Node.js"></img>
               <div className="name-icon">Node.js</div>
               <div className="tooltip">
@@ -129,7 +129,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={graphql} alt="Graphql"></img>
               <div className="name-icon">Graphql</div>
               <div className="tooltip">
@@ -147,7 +147,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={typescript} alt="Typescript"></img>
               <div className="name-icon">Typescript</div>
               <div className="tooltip">
@@ -165,7 +165,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={bootstrap} alt="Bootstrap"></img>
               <div className="name-icon">Bootstrap</div>
               <div className="tooltip">
@@ -183,7 +183,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={react} alt="React"></img>
               <div className="name-icon">React</div>
               <div className="tooltip">
@@ -201,7 +201,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="skill column col col-lg-3 col-md-3 text-center mb-5">
+            <div className="skill column col col-lg-3 col-md-3 text-center">
               <img className="icons" src={nextjs} alt="Next.js"></img>
               <div className="name-icon">Next.js</div>
               <div className="tooltip">
