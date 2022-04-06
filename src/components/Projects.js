@@ -17,7 +17,7 @@ const Projects = (props) => {
         <p>{description}</p>
         <div className="row d-flex justify-content-center">
           <a
-            className="col-5 btn btn-dark me-1"
+            className="col-5 btn me-1"
             href={linkWebsite}
             target="_blank"
             rel="noopener noreferrer"
@@ -25,7 +25,7 @@ const Projects = (props) => {
             <FaGlobeAmericas /> Website
           </a>
           <a
-            className="col-6 btn btn-dark ms-1"
+            className="col-6 btn ms-1"
             href={linkGithub}
             target="_blank"
             rel="noopener noreferrer"

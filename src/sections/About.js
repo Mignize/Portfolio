@@ -28,9 +28,9 @@ const About = () => {
               <a
                 className="btn btn-primary download"
                 href="xd"
-                download="certificado noveno.pdf"
+                download="CV-Santiago-Salazar-Guzman.pdf"
               >
-                <FaFilePdf />
+                <FaFilePdf className="icon-pdf"/>
                 Download CV
               </a>
             </div>

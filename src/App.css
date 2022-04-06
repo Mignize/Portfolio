@@ -17,3 +17,13 @@
 body {
   background-color: 	#F0F8FF !important; 
 }
+
+div .btn {
+  background-color: #000035;
+  color: var(--bs-white);
+}
+
+div .btn:hover {
+  color: var(--bs-white);
+  background-color:#0D6EFD
+}
