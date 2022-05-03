@@ -2,6 +2,8 @@ import React from "react";
 import "../css/About.css";
 import { FaFilePdf } from "react-icons/fa";
 
+import CV from "../files/pdf/Santiago-Salazar-CV.pdf";
+
 const About = () => {
   return (
     <>
@@ -27,8 +29,8 @@ const About = () => {
             <div className="py-3">
               <a
                 className="btn btn-primary download"
-                href="xd"
-                download="CV-Santiago-Salazar-Guzman.pdf"
+                href={CV}
+                download="Santiago-Salazar-CV.pdf"
               >
                 <FaFilePdf className="icon-pdf"/>
                 Download CV
