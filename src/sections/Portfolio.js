@@ -1,5 +1,5 @@
 import React from "react";
-import prueba from "../files/images/Prueba.jpg";
+import weatherApp from "../files/images/weatherApp.png";
 import Projects from "../components/Projects.js";
 
 const Portfolio = () => {
@@ -12,46 +12,11 @@ const Portfolio = () => {
         <div className="container-fluid">
           <div className="row projects">
             <Projects
-              img={prueba}
-              name="Project"
-              description="Web application: React"
-              linkWebsite="https://github.com/"
-              linkGithub="https://github.com"
-            ></Projects>
-            <Projects
-              img={prueba}
-              name="Project"
-              description="Web application: React"
-              linkWebsite="https://github.com/"
-              linkGithub="https://github.com"
-            ></Projects>
-            <Projects
-              img={prueba}
-              name="Project"
-              description="Web application: React"
-              linkWebsite="https://github.com/"
-              linkGithub="https://github.com"
-            ></Projects>
-            <Projects
-              img={prueba}
-              name="Project"
-              description="Web application: React"
-              linkWebsite="https://github.com/"
-              linkGithub="https://github.com"
-            ></Projects>
-            <Projects
-              img={prueba}
-              name="Project"
-              description="Web application: React"
-              linkWebsite="https://github.com/"
-              linkGithub="https://github.com"
-            ></Projects>
-            <Projects
-              img={prueba}
-              name="Project"
-              description="Web application: React"
-              linkWebsite="https://github.com/"
-              linkGithub="https://github.com"
+              img={weatherApp}
+              name="WeatherApp"
+              description="Web application: React, node.js, javascript, css"
+              linkWebsite="https://weatherapp-mignize.netlify.app"
+              linkGithub="https://github.com/Mignize/weather-app"
             ></Projects>
           </div>
         </div>

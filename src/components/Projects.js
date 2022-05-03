@@ -3,7 +3,7 @@ import "../css/Projects.css";
 import { FaGithub, FaGlobeAmericas } from "react-icons/fa";
 
 const Projects = (props) => {
-  const {img, name, description, linkWebsite, linkGithub} = props;
+  const { img, name, description, linkWebsite, linkGithub } = props;
 
   return (
     <div
@@ -15,22 +15,22 @@ const Projects = (props) => {
       <div className="container-fluid hover">
         <h3>{name}</h3>
         <p>{description}</p>
-        <div className="row d-flex justify-content-center">
+        <div className="row d-flex justify-items-center">
           <a
-            className="col-5 btn me-1"
+            className="col-5 btn me-1 d-flex justify-content-center align-items-center"
             href={linkWebsite}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGlobeAmericas /> Website
+            <FaGlobeAmericas /> <div className="website">Website</div>
           </a>
           <a
-            className="col-6 btn ms-1"
+            className="col-6 btn ms-1 d-flex justify-content-center align-items-center"
             href={linkGithub}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub /> Repository
+            <FaGithub /> <div className="repository">Repository</div>
           </a>
         </div>
       </div>
