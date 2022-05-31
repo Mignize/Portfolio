@@ -14,7 +14,7 @@ const About = () => {
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <div className="py-5">
+            <div className="pb-5">
               <h1>About me</h1>
             </div>
             <h4>I'm Santiago Salazar / web developer</h4>
@@ -42,7 +42,7 @@ const About = () => {
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <div className="py-5">
+            <div className="pb-5">
               <h1>My hobbies</h1>
             </div>
             <li>Playing video games</li>

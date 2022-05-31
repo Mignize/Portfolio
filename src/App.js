@@ -1,9 +1,11 @@
 import React from "react";
 import Navigation from "./sections/Navigation";
 import Home from "./sections/Home";
+
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Portfolio from "./sections/Portfolio";
+
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import "./App.css";
@@ -18,7 +20,7 @@ const App = () => {
       <section id="about">
         <About />
       </section>
-      <section id="Skills">
+      <section id="skills">
         <Skills />
       </section>
       <section id="portfolio">

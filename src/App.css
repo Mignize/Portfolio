@@ -14,6 +14,22 @@
   position: relative;
 }
 
+#about {
+  padding-top: 80px;
+}
+
+#skills {
+  padding-top: 80px;
+}
+
+#portfolio {
+padding-top: 80px;
+}
+
+#contact {
+  padding-top: 80px;
+}
+
 body {
   background-color: 	#F0F8FF !important; 
 }

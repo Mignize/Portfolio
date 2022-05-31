@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <>
       <div className="container" data-aos="fade-up" data-aos-duration="1500">
-        <div className="container py-5">
+        <div className="container pb-5">
           <h1>My skills</h1>
         </div>
         <div className="container">

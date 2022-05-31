@@ -68,7 +68,7 @@ const Contact = () => {
   return (
     <>
       <div className="container" data-aos="fade-up" data-aos-duration="1500">
-        <div className="py-5">
+        <div className="pb-5">
           <h1>Contact me</h1>
         </div>
         <div className="container">

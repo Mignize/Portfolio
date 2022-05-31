@@ -2,53 +2,41 @@ import React, { useState } from "react";
 import "../css/Navigation.css";
 import { FaBars } from "react-icons/fa";
 
+import { HashLink as Link } from "react-router-hash-link";
+import { BrowserRouter } from "react-router-dom";
+
 const Navigation = () => {
   const [visible, setVisible] = useState(false);
   const [background, setBackground] = useState(false);
 
   const sections = document.querySelectorAll("section");
 
-onscroll = () => {
-  const scrollPosition = document.documentElement.scrollTop;
+  onscroll = () => {
+    const scrollPosition = document.documentElement.scrollTop;
 
-  sections.forEach((section) => {
-    if (
-      scrollPosition >= section.offsetTop - section.offsetHeight * 0.5 &&
-      scrollPosition <
-        section.offsetTop + section.offsetHeight - section.offsetHeight * 0.5
-    ) {
-      const currentId = section.attributes.id.value;
-      removeAllActiveClasses();
-      addActiveClass(currentId);
-    }
-  });
-};
-
-const removeAllActiveClasses = () => {
-  document.querySelectorAll("nav a").forEach((e) => {
-    e.classList.remove("active");
-  });
-};
-
-const addActiveClass = (id) => {
-  const selector = `a[href="#${id}"].nav-link`;
-  document.querySelector(selector).classList.add("active");
-};
-
-const navLinks = document.querySelectorAll("a.nav-link");
-
-navLinks.forEach((link) => {
-  link.addEventListener("click", (e) => {
-    e.preventDefault();
-    const currentId = e.target.attributes.href.value;
-    const section = document.querySelector(currentId);
-    const sectionPos = section.offsetTop;
-    window.scroll({
-      top: sectionPos,
-      behavior: "smooth",
+    sections.forEach((section) => {
+      if (
+        scrollPosition >= section.offsetTop - section.offsetHeight * 0.5 &&
+        scrollPosition <
+          section.offsetTop + section.offsetHeight - section.offsetHeight * 0.5
+      ) {
+        const currentId = section.attributes.id.value;
+        removeAllActiveClasses();
+        addActiveClass(currentId);
+      }
     });
-  });
-});
+  };
+
+  const removeAllActiveClasses = () => {
+    document.querySelectorAll("nav a").forEach((e) => {
+      e.classList.remove("active");
+    });
+  };
+
+  const addActiveClass = (id) => {
+    const selector = `a[href="/Portfolio/#${id}"].nav-link`;
+    document.querySelector(selector).classList.add("active");
+  };
 
   const handleVisible = () => {
     if (visible === false) {
@@ -68,7 +56,7 @@ navLinks.forEach((link) => {
 
   window.addEventListener("scroll", changeBackground);
   return (
-    <>
+    <BrowserRouter>
       <nav
         className={
           background
@@ -79,7 +67,7 @@ navLinks.forEach((link) => {
         <div className="container-fluid px-4 align-items-start">
           <div className="navbar-logo">
             <div className="logo">
-              <a href="#home">M</a>
+              <Link to="#home">M</Link>
             </div>
           </div>
           <div className="d-flex">
@@ -96,34 +84,34 @@ navLinks.forEach((link) => {
             onMouseUp={handleVisible}
           >
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#home">
+              <Link to="#home" className="nav-link active">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">
+              <Link to="#about" className="nav-link">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#Skills">
+              <Link to="#skills" className="nav-link">
                 Skills
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio">
+              <Link to="#portfolio" className="nav-link">
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <Link to="#contact" className="nav-link">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
       </nav>
-    </>
+    </BrowserRouter>
   );
 };
 

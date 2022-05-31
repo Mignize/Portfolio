@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <>
       <div className="container">
-        <div className="py-5" data-aos="fade-up" data-aos-duration="1500">
+        <div className="pb-5" data-aos="fade-up" data-aos-duration="1500">
           <h1>My portfolio</h1>
         </div>
         <div className="container-fluid">
