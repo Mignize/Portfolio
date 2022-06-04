@@ -44,7 +44,7 @@ const Skills = () => {
             <Skill
               icon={nodejs}
               name="Node.js"
-              progress="100"
+              progress="75"
               level="High"
             ></Skill>
             <Skill
@@ -56,8 +56,8 @@ const Skills = () => {
             <Skill
               icon={typescript}
               name="Typescript"
-              progress="75"
-              level="High"
+              progress="50"
+              level="Improving"
             ></Skill>
             <Skill
               icon={bootstrap}
@@ -65,7 +65,7 @@ const Skills = () => {
               progress="75"
               level="High"
             ></Skill>
-            <Skill icon={react} name="React" progress="75" level="High"></Skill>
+            <Skill icon={react} name="React" progress="50" level="Improving"></Skill>
             <Skill
               icon={nextjs}
               name="Next.js"
