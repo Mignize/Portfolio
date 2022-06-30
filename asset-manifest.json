@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c4581a4d.css",
-    "main.js": "/Portfolio/static/js/main.02fb7994.js",
+    "main.css": "/Portfolio/static/css/main.9ab3aa86.css",
+    "main.js": "/Portfolio/static/js/main.1b75af2a.js",
     "static/media/weatherApp.png": "/Portfolio/static/media/weatherApp.8464a17bd71611082a99.png",
     "static/media/Santiago-Salazar-CV.pdf": "/Portfolio/static/media/Santiago-Salazar-CV.8a85ca5b1e0f8e6ca916.pdf",
     "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.36241e83375e5009aaeb.png",
@@ -13,11 +13,11 @@
     "static/media/git.png": "/Portfolio/static/media/git.dfdd0989ffe0184bdd68.png",
     "static/media/nextjs.png": "/Portfolio/static/media/nextjs.2b05ac76365076dc3243.png",
     "index.html": "/Portfolio/index.html",
-    "main.c4581a4d.css.map": "/Portfolio/static/css/main.c4581a4d.css.map",
-    "main.02fb7994.js.map": "/Portfolio/static/js/main.02fb7994.js.map"
+    "main.9ab3aa86.css.map": "/Portfolio/static/css/main.9ab3aa86.css.map",
+    "main.1b75af2a.js.map": "/Portfolio/static/js/main.1b75af2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4581a4d.css",
-    "static/js/main.02fb7994.js"
+    "static/css/main.9ab3aa86.css",
+    "static/js/main.1b75af2a.js"
   ]
 }
