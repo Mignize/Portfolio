@@ -110,6 +110,15 @@ span.navbar-text {
   }
 }
 
+@media (max-height: 512px) and (max-width: 991px) {
+  .navbar-nav {
+    padding-bottom: 0px;
+    padding-top: 450px;
+    justify-content: center;
+    flex-direction: row !important;
+  }
+}
+
 @media (max-height: 670px) and (max-width: 991px) {
   .navbar-nav {
     padding-bottom: 100px;
