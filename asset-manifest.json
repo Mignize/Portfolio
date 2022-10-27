@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1a35dc18.css",
-    "main.js": "/Portfolio/static/js/main.520601f4.js",
+    "main.js": "/Portfolio/static/js/main.669efcd3.js",
     "static/media/background.png": "/Portfolio/static/media/background.a9cd7309ac7b5a71e78a.png",
     "static/media/weatherApp.png": "/Portfolio/static/media/weatherApp.8464a17bd71611082a99.png",
     "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.36241e83375e5009aaeb.png",
@@ -12,15 +12,15 @@
     "static/media/Mignize.webp": "/Portfolio/static/media/Mignize.a2334ebba61ea8866103.webp",
     "static/media/ilustration.svg": "/Portfolio/static/media/ilustration.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/git.png": "/Portfolio/static/media/git.dfdd0989ffe0184bdd68.png",
-    "static/media/CV-Santiago-Salazar-Guzmán.pdf": "/Portfolio/static/media/CV-Santiago-Salazar-Guzmán.746e134935ebf2abceac.pdf",
-    "static/media/CV-Santiago-Salazar-Guzmán-English.pdf": "/Portfolio/static/media/CV-Santiago-Salazar-Guzmán-English.a6ea40190cca593a66e8.pdf",
+    "static/media/CV-Santiago-Salazar-Guzmán.pdf": "/Portfolio/static/media/CV-Santiago-Salazar-Guzmán.d0926197ecb11d5f9fba.pdf",
+    "static/media/CV-Santiago-Salazar-Guzmán-English.pdf": "/Portfolio/static/media/CV-Santiago-Salazar-Guzmán-English.f3f7d5c490d9c3af3fc4.pdf",
     "static/media/nextjs.png": "/Portfolio/static/media/nextjs.2b05ac76365076dc3243.png",
     "index.html": "/Portfolio/index.html",
     "main.1a35dc18.css.map": "/Portfolio/static/css/main.1a35dc18.css.map",
-    "main.520601f4.js.map": "/Portfolio/static/js/main.520601f4.js.map"
+    "main.669efcd3.js.map": "/Portfolio/static/js/main.669efcd3.js.map"
   },
   "entrypoints": [
     "static/css/main.1a35dc18.css",
-    "static/js/main.520601f4.js"
+    "static/js/main.669efcd3.js"
   ]
 }
