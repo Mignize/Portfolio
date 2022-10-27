@@ -2,7 +2,8 @@ import React from "react";
 import "../css/About.css";
 import { FaFilePdf } from "react-icons/fa";
 
-import CV from "../files/pdf/Santiago-Salazar-CV.pdf";
+import CVEnglish from "../files/pdf/CV-Santiago-Salazar-Guzmán-English.pdf";
+import CVSpanish from "../files/pdf/CV-Santiago-Salazar-Guzmán.pdf";
 
 const About = () => {
   return (
@@ -26,15 +27,27 @@ const About = () => {
               maintain a work environment where everyone can give each other
               feedback and improve together.
             </p>
-            <div className="py-3">
-              <a
-                className="btn btn-primary download"
-                href={CV}
-                download="Santiago-Salazar-CV.pdf"
-              >
-                <FaFilePdf className="icon-pdf"/>
-                Download CV
-              </a>
+            <div className="d-flex">
+              <div className="py-3">
+                <a
+                  className="btn btn-primary download"
+                  href={CVEnglish}
+                  download="CV-Santiago-Salazar-Guzmán-English.pdf"
+                >
+                  <FaFilePdf className="icon-pdf" />
+                  CV English
+                </a>
+              </div>
+              <div className="py-3 ms-2">
+                <a
+                  className="btn btn-primary download"
+                  href={CVSpanish}
+                  download="CV-Santiago-Salazar-Guzmán.pdf"
+                >
+                  <FaFilePdf className="icon-pdf" />
+                  CV Spanish
+                </a>
+              </div>
             </div>
           </div>
           <div
