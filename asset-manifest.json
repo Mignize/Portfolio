@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9ab3aa86.css",
-    "main.js": "/Portfolio/static/js/main.1b75af2a.js",
+    "main.css": "/Portfolio/static/css/main.d689b649.css",
+    "main.js": "/Portfolio/static/js/main.16bc20f7.js",
+    "static/media/background.png": "/Portfolio/static/media/background.a9cd7309ac7b5a71e78a.png",
     "static/media/weatherApp.png": "/Portfolio/static/media/weatherApp.8464a17bd71611082a99.png",
     "static/media/Santiago-Salazar-CV.pdf": "/Portfolio/static/media/Santiago-Salazar-CV.8a85ca5b1e0f8e6ca916.pdf",
     "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.36241e83375e5009aaeb.png",
@@ -10,14 +11,15 @@
     "static/media/css.png": "/Portfolio/static/media/css.9f33c557b92e4e2e1cc8.png",
     "static/media/react.png": "/Portfolio/static/media/react.05e48353d6aac031c4e0.png",
     "static/media/Mignize.webp": "/Portfolio/static/media/Mignize.a2334ebba61ea8866103.webp",
+    "static/media/ilustration.svg": "/Portfolio/static/media/ilustration.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/git.png": "/Portfolio/static/media/git.dfdd0989ffe0184bdd68.png",
     "static/media/nextjs.png": "/Portfolio/static/media/nextjs.2b05ac76365076dc3243.png",
     "index.html": "/Portfolio/index.html",
-    "main.9ab3aa86.css.map": "/Portfolio/static/css/main.9ab3aa86.css.map",
-    "main.1b75af2a.js.map": "/Portfolio/static/js/main.1b75af2a.js.map"
+    "main.d689b649.css.map": "/Portfolio/static/css/main.d689b649.css.map",
+    "main.16bc20f7.js.map": "/Portfolio/static/js/main.16bc20f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ab3aa86.css",
-    "static/js/main.1b75af2a.js"
+    "static/css/main.d689b649.css",
+    "static/js/main.16bc20f7.js"
   ]
 }
