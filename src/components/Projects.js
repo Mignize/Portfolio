@@ -15,7 +15,7 @@ const Projects = (props) => {
       <div className="container-fluid hover">
         <h3>{name}</h3>
         <p>{description}</p>
-        <div className="row d-flex justify-items-center">
+        <div className="row d-flex justify-content-center">
           <a
             className="col-5 btn me-1 d-flex justify-content-center align-items-center"
             href={linkWebsite}

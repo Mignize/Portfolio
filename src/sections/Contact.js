@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import "../css/Contact.css";
 import emailjs from "emailjs-com";
 import swal from "sweetalert2";
+import ilustration from "../files/images/ilustration.svg";
 
 const Contact = () => {
   const [name, setName] = useState({ text: "", error: "" });
   const [email, setEmail] = useState({ text: "", error: "" });
   const [message, setMessage] = useState({ text: "", error: "" });
 
-  const regularExpression = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
+  const regularExpression =
+    /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
   const verifyForm = async () => {
     let validate = true;
     if (!name.text) {
@@ -23,7 +25,7 @@ const Contact = () => {
 
     if (typeof email.text !== "undefined") {
       const emailVerified = regularExpression.test(email.text);
-      if(!emailVerified) {
+      if (!emailVerified) {
         setEmail({ error: "Please, enter a valid email" });
         validate = false;
       }
@@ -67,39 +69,48 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="container" data-aos="fade-up" data-aos-duration="1500">
-        <div className="pb-5">
-          <h1>Contact me</h1>
+      <div
+        className="container contact"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <div className="image-container">
+          <img src={ilustration} alt="contact me"></img>
         </div>
-        <div className="container">
-          <form className="form" onSubmit={handleSubmit}>
-            <label>Name</label>
+        <div className="w-100">
+          <div className="pb-5">
+            <h1>Contact me</h1>
+          </div>
+          <div className="container">
+            <form className="form" onSubmit={handleSubmit}>
+              <label>Name</label>
 
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              onChange={(e) => setName({ text: e.target.value })}
-            ></input>
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                onChange={(e) => setName({ text: e.target.value })}
+              ></input>
 
-            <span className="error">{name.error}</span>
+              <span className="error">{name.error}</span>
 
-            <label>Email</label>
-            <input
-              name="email"
-              placeholder="Email"
-              onChange={(e) => setEmail({ text: e.target.value })}
-            />
-            <span className="error">{email.error}</span>
-            <label>Message</label>
-            <textarea
-              name="message"
-              placeholder="Message"
-              onChange={(e) => setMessage({ text: e.target.value })}
-            ></textarea>
-            <span className="error">{message.error}</span>
-            <button type="submit">Send</button>
-          </form>
+              <label>Email</label>
+              <input
+                name="email"
+                placeholder="Email"
+                onChange={(e) => setEmail({ text: e.target.value })}
+              />
+              <span className="error">{email.error}</span>
+              <label>Message</label>
+              <textarea
+                name="message"
+                placeholder="Message"
+                onChange={(e) => setMessage({ text: e.target.value })}
+              ></textarea>
+              <span className="error">{message.error}</span>
+              <button type="submit">Send</button>
+            </form>
+          </div>
         </div>
       </div>
     </>
