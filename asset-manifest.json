@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.37912431.css",
+    "main.js": "/Portfolio/static/js/main.787fdab2.js",
+    "static/media/background.png": "/Portfolio/static/media/background.a9cd7309ac7b5a71e78a.png",
+    "static/media/weatherApp.png": "/Portfolio/static/media/weatherApp.8464a17bd71611082a99.png",
+    "static/media/CV-Santiago-Salazar-Guzmán-English.pdf": "/Portfolio/static/media/CV-Santiago-Salazar-Guzmán-English.1edbcefa839adc7d2d3d.pdf",
+    "static/media/CV-Santiago-Salazar-Guzmán.pdf": "/Portfolio/static/media/CV-Santiago-Salazar-Guzmán.2ed7110b9948e2c01285.pdf",
+    "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.36241e83375e5009aaeb.png",
+    "static/media/mongodb.png": "/Portfolio/static/media/mongodb.c9f0a5e798fe10267adb.png",
+    "static/media/graphql.png": "/Portfolio/static/media/graphql.971205269f3fda4bc54d.png",
+    "static/media/css.png": "/Portfolio/static/media/css.9f33c557b92e4e2e1cc8.png",
+    "static/media/react.png": "/Portfolio/static/media/react.05e48353d6aac031c4e0.png",
+    "static/media/Mignize.webp": "/Portfolio/static/media/Mignize.a2334ebba61ea8866103.webp",
+    "static/media/ilustration.svg": "/Portfolio/static/media/ilustration.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/git.png": "/Portfolio/static/media/git.dfdd0989ffe0184bdd68.png",
+    "static/media/nextjs.png": "/Portfolio/static/media/nextjs.2b05ac76365076dc3243.png",
+    "index.html": "/Portfolio/index.html",
+    "main.37912431.css.map": "/Portfolio/static/css/main.37912431.css.map",
+    "main.787fdab2.js.map": "/Portfolio/static/js/main.787fdab2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37912431.css",
+    "static/js/main.787fdab2.js"
+  ]
+}
