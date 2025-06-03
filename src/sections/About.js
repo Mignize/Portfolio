@@ -60,7 +60,7 @@ const About = () => {
             </div>
             <li>Playing video games</li>
             <li>Listen to music</li>
-            <li>To sing</li>
+            <li>Sing</li>
             <li>Program</li>
             <li>Exercise</li>
           </div>
